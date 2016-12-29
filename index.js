@@ -1,7 +1,20 @@
 module.exports = function(sides) {
-  sides.sort(compare)
+  if (!Array.isArray(sides)) {
+    console.error(new Error("is-triangle input must be array of ints"));
+    return null;
+  }
 
-  console.log(sides[0])
+  if (sides.length !== 3) {
+    console.error(new Error("is-triangle input must have a length of 3"));
+    return null;
+  }
+
+  sides.sort(compare)
+  if (sides[0] + sides[1] > sides[2]) {
+    return true;
+  }
+
+  return false;
 }
 
 function compare(a, b) {
