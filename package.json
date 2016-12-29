@@ -4,7 +4,7 @@
   "description": "Given 3 side lengths, return true or false if valid triangle can be formed",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/chasestarr/is-triangle/issues"
   },
-  "homepage": "https://github.com/chasestarr/is-triangle#readme"
+  "homepage": "https://github.com/chasestarr/is-triangle#readme",
+  "devDependencies": {
+    "chai": "^3.5.0"
+  }
 }
