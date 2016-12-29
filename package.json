@@ -1,21 +1,21 @@
 {
-  "name": "is-triangle",
+  "name": "valid-triangle",
   "version": "1.0.0",
   "description": "Given 3 side lengths, return true or false if valid triangle can be formed",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
-  "repository": "chasestarr/is-triangle",
+  "repository": "chasestarr/valid-triangle",
   "keywords": [
     "triangle"
   ],
   "author": "Chase Starr",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/chasestarr/is-triangle/issues"
+    "url": "https://github.com/chasestarr/valid-triangle/issues"
   },
-  "homepage": "https://github.com/chasestarr/is-triangle#readme",
+  "homepage": "https://github.com/chasestarr/valid-triangle#readme",
   "devDependencies": {
     "chai": "^3.5.0"
   }
