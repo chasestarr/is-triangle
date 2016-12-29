@@ -1,0 +1,22 @@
+{
+  "name": "is-triangle",
+  "version": "1.0.0",
+  "description": "Given 3 side lengths, return true or false if valid triangle can be formed",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chasestarr/is-triangle.git"
+  },
+  "keywords": [
+    "triangle"
+  ],
+  "author": "Chase Starr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chasestarr/is-triangle/issues"
+  },
+  "homepage": "https://github.com/chasestarr/is-triangle#readme"
+}
