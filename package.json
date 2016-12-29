@@ -6,15 +6,12 @@
   "scripts": {
     "test": "mocha"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/chasestarr/is-triangle.git"
-  },
+  "repository": "chasestarr/is-triangle",
   "keywords": [
     "triangle"
   ],
   "author": "Chase Starr",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/chasestarr/is-triangle/issues"
   },
